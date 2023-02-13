@@ -1,9 +1,10 @@
 import React from "react";
+import { CardList } from "./Cards/CardList";
 
 export const Cards = () => {
   return (
     <React.Fragment>
-      <h2>Cards</h2>
+      <CardList />
     </React.Fragment>
   );
 };

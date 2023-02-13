@@ -6,6 +6,7 @@ import { Branches } from "./Branches";
 import { AccountTypes } from "./AccountTypes";
 import { Cards } from "./Cards";
 import { Loans } from "./Loans";
+import { Settings } from "./Settings";
 
 export const Landing = () => {
   return (
@@ -18,6 +19,7 @@ export const Landing = () => {
           <Route path="/acctypes" element={<AccountTypes />} />
           <Route path="/cards" element={<Cards />} />
           <Route path="/loans" element={<Loans />} />
+          <Route path="/settings" element={<Settings />} />
         </Routes>
       </BrowserRouter>
     </React.Fragment>

@@ -1,9 +1,10 @@
 import React from "react";
+import { BranchList } from "./branches/BranchList";
 
 export const Branches = () => {
   return (
     <React.Fragment>
-      <h2>Branches</h2>
+      <BranchList />
     </React.Fragment>
   );
 };

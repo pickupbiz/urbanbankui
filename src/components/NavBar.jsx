@@ -13,7 +13,7 @@ export const NavBar = () => {
     getData();
   }, []);
   return (
-    <Grid container spacing={1}>
+    <Grid container spacing={1} sx={{ marginBottom: 2 }}>
       {data.map((item) => (
         <NavBarItem item={item} />
       ))}

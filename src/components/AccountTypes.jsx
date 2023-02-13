@@ -1,9 +1,10 @@
 import React from "react";
+import { AccoutTypeList } from "./AccountType/AccoutTypeList";
 
 export const AccountTypes = () => {
   return (
     <React.Fragment>
-      <h3>Account Types</h3>
+      <AccoutTypeList />
     </React.Fragment>
   );
 };
